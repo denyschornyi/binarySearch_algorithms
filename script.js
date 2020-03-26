@@ -1,3 +1,4 @@
+'use strict';
 function binarySearch (list , item){
     let low = 0;
     let high = list.length - 1;
@@ -18,4 +19,5 @@ function binarySearch (list , item){
 
 let my_list = [1, 3, 5, 7, 9];
 
-console.log(binarySearch(my_list , 10));
+console.log(binarySearch(my_list , 10)); //Show null 
+console.log(binarySearch(my_list , 3)); //Show 1 
